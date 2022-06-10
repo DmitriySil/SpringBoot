@@ -13,8 +13,8 @@ public class UsersController {
     private final UserService userService;
 
     @Autowired
-    public UsersController(UserService userService) {
-        this.userService = userService;
+    public UsersController(UserService userServiceImp) {
+        this.userService = userServiceImp;
     }
 
 
